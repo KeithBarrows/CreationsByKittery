@@ -1,0 +1,143 @@
+﻿html, body, .container {
+   height:100%;
+}
+
+.Steampunk {
+    background: url("/content/images/steampunk.jpg") no-repeat;
+}
+.Victorian {
+    background: url("/content/images/victorian.jpg") no-repeat center -105px;
+}
+.Wedding {
+    background: url("/content/images/wedding.jpg") no-repeat;
+}
+.Vintage {
+    background: url("/content/images/vintage.jpg") no-repeat;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* -------------------- The Button Goodness !!! -------------------- */
+/* ----------------------------------------------------------------- */
+
+/* ---------- Example One ---------- */
+
+.eg1 {
+    background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -105px; /* Fallback */
+    display: block;
+    float: left;
+    margin: 10px;
+    /*width: 5em;*/
+    padding: 10px 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+    background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/linear-gradient.png) no-repeat 0px -400px, url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -8px;
+    -moz-box-shadow: 2px 2px 10px #000;
+    -webkit-box-shadow: 2px 2px 10px #000;
+    -o-box-shadow: 2px 2px 10px #000;
+    box-shadow: 2px 2px 10px #000;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+    .eg1:hover {
+        background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -5px; /* Fallback */
+        background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/linear-gradient.png) no-repeat 0px 0px, url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -8px;
+        -moz-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+/* ---------- Example Two ---------- */
+
+.eg2 {
+    background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -105px; /* Fallback */
+    display: block;
+    width: 5em;
+    margin: 0px 20px;
+    padding: 30px 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+    background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/stripes.png) no-repeat 0px 0px, url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -8px;
+    -moz-box-shadow: 2px 2px 10px #000;
+    -webkit-box-shadow: 2px 2px 10px #000;
+    -o-box-shadow: 2px 2px 10px #000;
+    box-shadow: 2px 2px 10px #000;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+    .eg2:hover {
+        background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -5px; /* Fallback */
+        background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/stripes.png) no-repeat 0px -200px, url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -8px;
+        -moz-transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+/* ---------- Example Three ---------- */
+
+.eg3 {
+    background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -105px; /* Fallback */
+    display: block;
+    width: 5em;
+    padding: 30px 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+    background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/radial-gradient.png) no-repeat center center, url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -8px;
+    -moz-box-shadow: 2px 2px 10px #000;
+    -webkit-box-shadow: 2px 2px 10px #000;
+    -o-box-shadow: 2px 2px 10px #000;
+    box-shadow: 2px 2px 10px #000;
+    -moz-background-size: 200px 200px, 180px 200px;
+    -webkit-background-size: 200px 200px, 180px 200px;
+    -o-background-size: 200px 200px, 180px 200px;
+    background-size: 200px 200px, 180px 200px;
+    -moz-transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+}
+
+    .eg3:hover {
+        background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -5px; /* Fallback */
+        background: url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/radial-gradient.png) no-repeat center center, url(http://www.mightymeta.co.uk/demos/css3-animated-vignette-buttons/images/background.png) no-repeat center -8px;
+        -moz-background-size: 1000px 1000px, 180px 200px;
+        -webkit-background-size: 1000px 1000px, 180px 200px;
+        -o-background-size: 1000px 1000px, 180px 200px;
+        background-size: 1000px 1000px, 180px 200px;
+        -moz-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }

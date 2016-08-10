@@ -1,0 +1,40 @@
+﻿@using CreationsByKittery.Features.Gallery
+@model Index.Result
+
+<script async defer src="http://assets.pinterest.com/js/pinit.js"></script>
+<link href="~/Content/Gallery.css" rel="stylesheet" />
+
+<script language="javascript">
+    //debugger;
+    $(document).ready(setupPage);
+    $(window).on('resize', setupPage);
+
+    function setupPage() {
+        //debugger;
+        //$(".container.body-content").addClass("@Model.GalleryInfo.Title");
+        $("body").addClass("@Model.GalleryInfo.Title");
+        var containerWidth = $(".container").width();
+        var containerHeight = $(window).height();
+        var boardWidth = $("#GalleryInfo_DataPinBoardWidth").val();
+        //alert(containerWidth);
+        //alert(containerHeight);
+        $("#pinterest").attr("data-pin-board-width", containerWidth - 20);
+        $("#pinterest").attr("data-pin-scale-height", containerHeight - 330);
+    }
+</script>
+
+<div id="header">
+    @foreach (var button in Model.ButtonList)
+    {
+        <a href="/Gallery/@button.Id" class="btn eg1">@button.Title</a>
+    }
+</div>
+<div style="clear: both;"></div>
+<a data-pin-do="@Model.GalleryInfo.DataPinDo"
+   data-pin-board-width="@Model.GalleryInfo.DataPinBoardWidth"
+   data-pin-scale-height="@Model.GalleryInfo.DataPinScaleHeight"
+   data-pin-scale-width="@Model.GalleryInfo.DataPinScaleWidth"
+   href="@Model.GalleryInfo.Url"
+   class="@Model.GalleryInfo.CssClass"
+   id="pinterest"></a>
+
