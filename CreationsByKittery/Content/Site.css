@@ -1,16 +1,42 @@
-﻿body {
+/*
+    color: #422C2F;
+    color: #B855F2;
+    color: #C25597;   -- base color 
+    color: #78B296;
+    color: #6F6FEA;
+*/
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
+body.Steampunk {
+    background: url("/content/images/steampunk.jpg") no-repeat center -105px;
+    background-size: 100% auto;
+}
+
+body.Victorian {
+    background: url("/content/images/victorian.jpg") no-repeat center -105px;
+    background-size: 100% auto;
+}
+body.Wedding {
+    background: url("/content/images/wedding.jpg") no-repeat center -105px;
+    background-size: 100% auto;
+}
+body.Vintage {
+    background: url("/content/images/vintage.jpg") no-repeat center -105px;
+    background-size: 100% auto;
+}
+
+html, body, .container {
+   height:100%;
+}
+
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.display {
-    background-color: pink;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -26,3 +52,5 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
