@@ -11,21 +11,21 @@ body {
     padding-bottom: 20px;
 }
 body.Steampunk {
-    background: url("/content/images/steampunk.jpg") no-repeat center -105px;
-    background-size: 100% auto;
+    background: url("/content/images/steampunk.jpg") no-repeat left;
+    background-size: cover;
 }
 
 body.Victorian {
-    background: url("/content/images/victorian.jpg") no-repeat center -105px;
-    background-size: 100% auto;
+    background: url("/content/images/victorian.jpg") no-repeat left;
+    background-size: cover;
 }
 body.Wedding {
-    background: url("/content/images/wedding.jpg") no-repeat center -105px;
-    background-size: 100% auto;
+    background: url("/content/images/wedding.jpg") no-repeat left;
+    background-size: cover;
 }
 body.Vintage {
-    background: url("/content/images/vintage.jpg") no-repeat center -105px;
-    background-size: 100% auto;
+    background: url("/content/images/vintage.jpg") no-repeat left;
+    background-size: cover;
 }
 
 html, body, .container {
@@ -52,5 +52,4 @@ select,
 textarea {
     max-width: 280px;
 }
-
 
