@@ -166,7 +166,6 @@
     <Content Include="Content\images\vintage.jpg" />
     <Content Include="Content\images\wedding.jpg" />
     <Content Include="favicon.ico" />
-    <Content Include="Content\Gallery.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -179,7 +178,6 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="PinterestGallery.json" />
-    <None Include="Properties\PublishProfiles\kittery__CreationsBy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\kittery__CreationsBy.pubxml" />
     <None Include="Scripts\jquery-3.1.0.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
