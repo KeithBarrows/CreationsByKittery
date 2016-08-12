@@ -10,26 +10,29 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
-body.Steampunk {
-    background: url("/content/images/steampunk.jpg") no-repeat left;
-    background-size: cover;
-}
 
-body.Victorian {
-    background: url("/content/images/victorian.jpg") no-repeat left;
-    background-size: cover;
-}
-body.Wedding {
-    background: url("/content/images/wedding.jpg") no-repeat left;
-    background-size: cover;
-}
-body.Vintage {
-    background: url("/content/images/vintage.jpg") no-repeat left;
-    background-size: cover;
-}
+    body.Steampunk {
+        background: url("/content/images/steampunk.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Victorian {
+        background: url("/content/images/victorian.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Wedding {
+        background: url("/content/images/wedding.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Vintage {
+        background: url("/content/images/vintage.jpg") no-repeat left;
+        background-size: cover;
+    }
 
 html, body, .container {
-   height:100%;
+    height: 100%;
 }
 
 
@@ -53,3 +56,51 @@ textarea {
     max-width: 280px;
 }
 
+.navbar {
+    background: #C25597;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #422C2F;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color: #FFF;
+        background-color: transparent;
+    }
+
+.navbar-inverse .navbar-brand {
+    color: #78B296;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+
+.jumbotron {
+    margin-top: 5px;
+    background: #6F6FEA;
+}
+
+.carousel {
+    background: #FFF;
+    margin-top: 20px;
+}
+
+    .carousel .item img {
+        margin: 20px auto; /* Align slide image horizontally center */
+        max-height: 300px;
+        max-width: 900px;
+        bottom: 200px;
+    }
+
+.carousel-caption {
+    /*background-color: rgba(111, 111, 234, 0.4);*/
+    /*color: #422C2F;*/
+
+    position: absolute;
+    right: 31%;
+    bottom: 4px;
+    left: 31%;
+    z-index: 10;
+    max-width: 900px;
+}

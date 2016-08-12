@@ -1,0 +1,39 @@
+[
+  {
+    "Id": 0,
+    "ImageSource": "/Content/images/carousel00.jpg",
+    "ImageMinHeight": "300px",
+    "ImageMaxHeight": "300px",
+    "ImageHeader": "Meet Kittery",
+    "ImageText": "Hi!  I am Kittery......",
+    "TextColor":  "#000"
+  }
+  ,
+  {
+    "Id": 1,
+    "ImageSource": "/Content/images/carousel01.jpg",
+    "ImageMinHeight": "300px",
+    "ImageMaxHeight": "300px",
+    "ImageHeader": "Specialties",
+    "ImageText": "Steampunk, Wedding Gowns, Vintage and Rockabilly, Renaissance and Victorian Periods.....",
+    "TextColor":  "#FFF"
+  },
+  {
+    "Id": 2,
+    "ImageSource": "/Content/images/carousel02.jpg",
+    "ImageMinHeight": "300px",
+    "ImageMaxHeight": "300px",
+    "ImageHeader": "General",
+    "ImageText": "Alterations, Repairs, Scrubs.....",
+    "TextColor":  "#FFF"
+  },
+  {
+    "Id": 3,
+    "ImageSource": "/Content/images/logo01.png",
+    "ImageMinHeight": "300px",
+    "ImageMaxHeight": "300px",
+    "ImageHeader": "More",
+    "ImageText": "More about me.....",
+    "TextColor":  "#000"
+  }
+]

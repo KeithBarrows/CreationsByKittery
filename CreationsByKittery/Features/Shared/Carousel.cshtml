@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+}
+
+@model List<Sol3.Site.Repository.CreationsByKittery.CarouselDomainModel>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        @for (var i = 1; i < Model.Count; i++)
+        {
+            <li data-target="#myCarousel" data-slide-to="@i"></li>
+        }
+    </ol>
+
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+        @foreach (var item in Model)
+        {
+            if (item.Id == 0)
+            {
+                <div class="item active">
+                    <img src="@item.ImageSource" alt="@item.ImageHeader">
+                    <div class="carousel-caption" style="color: @item.TextColor">
+                        <h3>@item.ImageHeader</h3>
+                        <p>@item.ImageText</p>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="item">
+                    <img src="@item.ImageSource" alt="@item.ImageHeader">
+                    <div class="carousel-caption" style="color: @item.TextColor">
+                        <h3>@item.ImageHeader</h3>
+                        <p>@item.ImageText</p>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <!-- Carousel controls -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#myCarousel").carousel({
+            interval: 3000,
+            pause: false
+        });
+    });
+</script>
+
