@@ -1,6 +1,9 @@
 # CreationsByKittery
 
-Welcome to the CreationsByKittery!  More details on the [Wiki](https://github.com/KeithBarrows/CreationsByKittery/wiki)
+Welcome to CbK: Creations by Kittery!  
+More details on the [Wiki](https://github.com/KeithBarrows/CreationsByKittery/wiki)
+
+[Experiment in Github pages.](https://keithbarrows.github.io/CreationsByKittery/)
 
 This is a website I am creating for my wife, which gives me the opportunity to look at changing some things up.  
 * [Feature folders](http://timgthomas.com/2013/10/feature-folders-in-asp-net-mvc/) in an MVC app
