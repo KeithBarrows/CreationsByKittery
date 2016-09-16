@@ -71,7 +71,7 @@ namespace CreationsByKittery.Features.Home
                     Title = "Victorian",
                     Description = "Vistorian Era",
                     Url = "https://www.pinterest.com/KitteryBarrows/victorion-clothing/",
-                    CssClass = "button sepia"
+                    ButtonCss = "button sepia"
                 },
                 new PinterestGalleryDomainModel
                 {
@@ -79,7 +79,7 @@ namespace CreationsByKittery.Features.Home
                     Title = "Clothing Dreams",
                     Description = "Clothing dreams and ideas",
                     Url = "https://www.pinterest.com/keithbarrows/clothing-dreams-and-ideas/",
-                    CssClass = "button sepia"
+                    ButtonCss = "button sepia"
                 },
                 new PinterestGalleryDomainModel
                 {
@@ -87,7 +87,7 @@ namespace CreationsByKittery.Features.Home
                     Title = "Vintage",
                     Description = "Vintage and Rockabilly",
                     Url = "https://www.pinterest.com/KitteryBarrows/vintage-and-rockabilly/",
-                    CssClass = "button sepia"
+                    ButtonCss = "button sepia"
                 },
                 new PinterestGalleryDomainModel
                 {
@@ -95,7 +95,7 @@ namespace CreationsByKittery.Features.Home
                     Title = "Steampunk",
                     Description = "Steampunk Ideas",
                     Url = "https://www.pinterest.com/KitteryBarrows/steampunk-ideas/",
-                    CssClass = "button sepia"
+                    ButtonCss = "button sepia"
                 },
             };
 

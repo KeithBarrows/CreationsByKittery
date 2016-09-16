@@ -6,6 +6,18 @@
     color: #6F6FEA;
 */
 
+img.centered {
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    -ms-opacity: 0.5;
+    opacity: 0.5;
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -28,6 +40,41 @@ body {
 
     body.Vintage {
         background: url("/content/images/vintage.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Modern {
+        background: url("/Content/images/generic-background.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Cosplay {
+        background: url("/Content/images/generic-background.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Medieval {
+        background: url("/Content/images/generic-background.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Corsets {
+        background: url("/Content/images/generic-background.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Regency {
+        background: url("/Content/images/generic-background.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Edwardian {
+        background: url("/Content/images/generic-background.jpg") no-repeat left;
+        background-size: cover;
+    }
+
+    body.Modern {
+        background: url("/Content/images/generic-background.jpg") no-repeat left;
         background-size: cover;
     }
 

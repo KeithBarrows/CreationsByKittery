@@ -11,7 +11,7 @@
     function setupPage() {
         //debugger;
         //$(".container.body-content").addClass("@Model.GalleryInfo.Title");
-        $("body").addClass("@Model.GalleryInfo.Title");
+        $("body").addClass("@Model.GalleryInfo.PageCss");
         var containerWidth = $(".container").width();
         var containerHeight = $(window).height();
         var boardWidth = $("#GalleryInfo_DataPinBoardWidth").val();
@@ -34,6 +34,6 @@
    data-pin-scale-height="@Model.GalleryInfo.DataPinScaleHeight"
    data-pin-scale-width="@Model.GalleryInfo.DataPinScaleWidth"
    href="@Model.GalleryInfo.Url"
-   class="@Model.GalleryInfo.CssClass"
+   class="@Model.GalleryInfo.ButtonCss"
    id="pinterest"></a>
 
