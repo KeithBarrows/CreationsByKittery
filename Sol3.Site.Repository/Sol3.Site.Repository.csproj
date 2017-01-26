@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationsByKittery\CarouselDomainModel.cs" />
     <Compile Include="CreationsByKittery\GalleryDomainModel.cs" />
     <Compile Include="CreationsByKittery\PinterestGalleryDomainModel.cs" />
     <Compile Include="IRepository.cs" />

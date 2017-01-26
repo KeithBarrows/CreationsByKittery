@@ -47,7 +47,7 @@ namespace CreationsByKittery.Features.Gallery
             return source.Select(q => new GalleryDomainModel
             {
                 Id = q.Id,
-                CssClass = q.CssClass,
+                ButtonCss = q.ButtonCss,
                 Description = q.Description,
                 Title = q.Title
             }).ToList();

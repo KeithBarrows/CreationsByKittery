@@ -13,7 +13,7 @@ namespace CreationsByKittery
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-        public IMediator _mediator;
+        public IMediator Mediator;
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();

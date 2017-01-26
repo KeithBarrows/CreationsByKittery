@@ -1,4 +1,122 @@
-[{"Url":"https://www.pinterest.com/KitteryBarrows/victorion-clothing/","DataPinDo":"embedBoard","DataPinBoardWidth":400,"DataPinScaleHeight":240,"DataPinScaleWidth":80,"Id":1,"Title":"Victorian","Description":"Vistorian Era","CssClass":"btn myButton victorian"}
-,{"Url":"https://www.pinterest.com/keithbarrows/clothing-dreams-and-ideas/","DataPinDo":"embedBoard","DataPinBoardWidth":400,"DataPinScaleHeight":240,"DataPinScaleWidth":80,"Id":2,"Title":"Wedding","Description":"Clothing dreams and ideas","CssClass":"btn myButton dreams"}
-,{"Url":"https://www.pinterest.com/KitteryBarrows/vintage-and-rockabilly/","DataPinDo":"embedBoard","DataPinBoardWidth":800,"DataPinScaleHeight":480,"DataPinScaleWidth":160,"Id":3,"Title":"Vintage","Description":"Vintage and Rockabilly","CssClass":"btn myButton rockabilly"}
-,{"Url":"https://www.pinterest.com/KitteryBarrows/steampunk-ideas/","DataPinDo":"embedBoard","DataPinBoardWidth":400,"DataPinScaleHeight":240,"DataPinScaleWidth":80,"Id":4,"Title":"Steampunk","Description":"Steampunk Ideas","CssClass":"btn myButton steampunk"}]
+[
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/wedding-formal-gowns/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 1,
+    "Title": "Wedding & Formal",
+    "Description": "Wedding and formal gowns from all eras",
+    "ButtonCss": "btn myButton victorian",
+    "PageCss":  "Wedding" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/ladies-victoriancivil-war-eras/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 2,
+    "Title": "Victorian",
+    "Description": "Ladies clothing from 1837-1901",
+    "ButtonCss": "btn myButton dreams",
+    "PageCss":  "Victorian" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/vintage-pinup/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 800,
+    "DataPinScaleHeight": 480,
+    "DataPinScaleWidth": 160,
+    "Id": 3,
+    "Title": "Vintage",
+    "Description": "Clothing from the 1940's through 1959",
+    "ButtonCss": "btn myButton rockabilly",
+    "PageCss":  "Vintage" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/ladies-edwardian/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 4,
+    "Title": "Edwardian",
+    "Description": "Ladies clothing from the Edwardian Era, 1901-1914",
+    "ButtonCss": "btn myButton steampunk",
+    "PageCss":  "Edwardian" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/ladies-regency-era/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 5,
+    "Title": "Regency",
+    "Description": "Ladies dresses from 1811-1837",
+    "ButtonCss": "btn myButton steampunk",
+    "PageCss":  "Regency" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/steampunk/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 6,
+    "Title": "Steampunk",
+    "Description": "Men's and Women's steampunk clothing",
+    "ButtonCss": "btn myButton steampunk",
+    "PageCss":  "Steampunk" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/corsetsunderpinnings/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 7,
+    "Title": "Corsets & Underpinnings",
+    "Description": "Ladies underthings from the Renaissance to the end of the Victorian era! This includes, petticoats, corsets, hoop skirts and bloomers.",
+    "ButtonCss": "btn myButton steampunk",
+    "PageCss":  "Corsets" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/medievalrenaissance/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 8,
+    "Title": "Medieval/Renaissance",
+    "Description": "Men's and women's clothing from the 5th to the 16th Century.",
+    "ButtonCss": "btn myButton steampunk",
+    "PageCss":  "Medieval" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/costumingcosplay/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 9,
+    "Title": "Costuming/Cosplay",
+    "Description": "",
+    "ButtonCss": "btn myButton steampunk",
+    "PageCss":  "Cosplay" 
+  },
+  {
+    "Url": "https://www.pinterest.com/creationsbykitt/modern/",
+    "DataPinDo": "embedBoard",
+    "DataPinBoardWidth": 400,
+    "DataPinScaleHeight": 240,
+    "DataPinScaleWidth": 80,
+    "Id": 10,
+    "Title": "Modern",
+    "Description": "",
+    "ButtonCss": "btn myButton steampunk",
+    "PageCss":  "Modern" 
+  }
+]
